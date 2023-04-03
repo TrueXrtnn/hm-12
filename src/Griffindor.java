@@ -1,15 +1,15 @@
-public class griffindor extends student {
+public class Griffindor extends Student {
     private int nobility;
     private int honor;
     private int honesty;
 
-    public griffindor(int powerMagic, int transgressionDistance, String name, String surname, int nobility, int honor, int honesty) {
+    public Griffindor(int powerMagic, int transgressionDistance, String name, String surname, int nobility, int honor, int honesty) {
         super(powerMagic, transgressionDistance, name, surname);
         this.nobility = nobility;
         this.honor = honor;
         this.honesty = honesty;
     }
-    public static void studentComparison(griffindor a, griffindor b){
+    public static void studentComparison(Griffindor a, Griffindor b){
         int sumA, sumB;
         sumA = a.getHonor()+a.getHonesty()+a.getNobility();
         sumB = b.getHonor()+b.getHonesty()+b.getNobility();

@@ -1,17 +1,17 @@
-public class kogtevran extends student {
+public class Kogtevran extends Student {
     private int intellect;
     private int wisdom;
     private int wit;
     private int creative;
 
-    public kogtevran(int powerMagic, int transgressionDistance, String name, String surname, int intellect, int wisdom, int wit, int creative) {
+    public Kogtevran(int powerMagic, int transgressionDistance, String name, String surname, int intellect, int wisdom, int wit, int creative) {
         super(powerMagic, transgressionDistance, name, surname);
         this.intellect = intellect;
         this.wisdom = wisdom;
         this.wit = wit;
         this.creative = creative;
     }
-    public static void studentComparison(kogtevran a, kogtevran b){
+    public static void studentComparison(Kogtevran a, Kogtevran b){
         int sumA, sumB;
         sumA = a.getIntellect()+a.getWisdom()+a.getWit()+a.getCreative();
         sumB = b.getIntellect()+b.getWisdom()+b.getWit()+b.getCreative();

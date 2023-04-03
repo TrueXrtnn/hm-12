@@ -1,13 +1,13 @@
-public class student extends hogwarts{
+public class Student extends Hogwarts {
     private String name;
     private String surname;
 
-    public student(int powerMagic, int transgressionDistance, String name, String surname) {
+    public Student(int powerMagic, int transgressionDistance, String name, String surname) {
         super(powerMagic, transgressionDistance);
         this.name = name;
         this.surname = surname;
         }
-    public static void studentComparison(student a, student b){
+    public static void studentComparison(Student a, Student b){
         int sumA, sumB;
         sumA = a.getPowerMagic()+a.getTransgressionDistance();
         sumB = b.getPowerMagic()+b.getTransgressionDistance();

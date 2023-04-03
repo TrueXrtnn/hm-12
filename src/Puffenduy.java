@@ -1,15 +1,15 @@
-public class puffenduy extends student{
+public class Puffenduy extends Student {
     private int industriousness;
     private int loyalty;
     private int honour;
 
-    public puffenduy(int powerMagic, int transgressionDistance, String name, String surname, int industriousness, int loyalty, int honour) {
+    public Puffenduy(int powerMagic, int transgressionDistance, String name, String surname, int industriousness, int loyalty, int honour) {
         super(powerMagic, transgressionDistance, name, surname);
         this.industriousness = industriousness;
         this.loyalty = loyalty;
         this.honour = honour;
     }
-    public static void studentComparison(puffenduy a, puffenduy b){
+    public static void studentComparison(Puffenduy a, Puffenduy b){
         int sumA, sumB;
         sumA = a.getIndustriousness()+a.getLoyalty()+a.getHonour();
         sumB = b.getIndustriousness()+b.getLoyalty()+b.getHonour();

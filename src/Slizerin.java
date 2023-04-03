@@ -1,11 +1,11 @@
-public class slizerin extends student{
+public class Slizerin extends Student {
 private int cunning;
 private int determination;
 private int ambition;
 private int resourcefulness;
 private int lustForPower;
 
-    public slizerin(int powerMagic, int transgressionDistance, String name, String surname, int cunning, int determination, int ambition, int resourcefulness, int lustForPower) {
+    public Slizerin(int powerMagic, int transgressionDistance, String name, String surname, int cunning, int determination, int ambition, int resourcefulness, int lustForPower) {
         super(powerMagic, transgressionDistance, name, surname);
         this.cunning = cunning;
         this.determination = determination;
@@ -13,7 +13,7 @@ private int lustForPower;
         this.resourcefulness = resourcefulness;
         this.lustForPower = lustForPower;
     }
-    public static void studentComparison(slizerin a, slizerin b){
+    public static void studentComparison(Slizerin a, Slizerin b){
         int sumA, sumB;
         sumA = a.getCunning()+a.getDetermination()+a.getAmbition()+a.getResourcefulness()+a.getLustForPower();
         sumB = b.getCunning()+b.getDetermination()+b.getAmbition()+b.getResourcefulness()+b.getLustForPower();
